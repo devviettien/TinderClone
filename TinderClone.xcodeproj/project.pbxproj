@@ -11,6 +11,8 @@
 		66326F012A6AB09F00804C52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66326F002A6AB09F00804C52 /* ContentView.swift */; };
 		66326F032A6AB0A100804C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66326F022A6AB0A100804C52 /* Assets.xcassets */; };
 		66326F072A6AB0A100804C52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66326F062A6AB0A100804C52 /* Preview Assets.xcassets */; };
+		66326F0E2A6AB0FE00804C52 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66326F0D2A6AB0FE00804C52 /* CardView.swift */; };
+		66326F102A6AB12500804C52 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66326F0F2A6AB12500804C52 /* Trip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		66326F022A6AB0A100804C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66326F042A6AB0A100804C52 /* TinderClone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TinderClone.entitlements; sourceTree = "<group>"; };
 		66326F062A6AB0A100804C52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66326F0D2A6AB0FE00804C52 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		66326F0F2A6AB12500804C52 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				66326EFE2A6AB09F00804C52 /* TinderCloneApp.swift */,
 				66326F002A6AB09F00804C52 /* ContentView.swift */,
+				66326F0D2A6AB0FE00804C52 /* CardView.swift */,
+				66326F0F2A6AB12500804C52 /* Trip.swift */,
 				66326F022A6AB0A100804C52 /* Assets.xcassets */,
 				66326F042A6AB0A100804C52 /* TinderClone.entitlements */,
 				66326F052A6AB0A100804C52 /* Preview Content */,
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66326F102A6AB12500804C52 /* Trip.swift in Sources */,
 				66326F012A6AB09F00804C52 /* ContentView.swift in Sources */,
+				66326F0E2A6AB0FE00804C52 /* CardView.swift in Sources */,
 				66326EFF2A6AB09F00804C52 /* TinderCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
